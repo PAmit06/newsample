@@ -18,4 +18,10 @@ do
   ((count++))
 done
 
+#untill loop
 
+num=1
+until [ $num -ge 5 ]
+do
+  echo "num: $num"
+done
