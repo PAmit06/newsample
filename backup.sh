@@ -16,7 +16,7 @@ done
 
 ## lets compress
 if [ -f "$LOG_DIR\$LOG_FILE" ]; then
-  mv "$LOG_DIR\$LOG_FILE" ""$LOG_DIR\$LOG_FILE.1"
+  mv "$LOG_DIR\$LOG_FILE" "$LOG_DIR\$LOG_FILE.1"
   gzip "$LOG_DIR\$LOG_FILE.1"
 fi
 
