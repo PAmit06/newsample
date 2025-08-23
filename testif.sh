@@ -12,6 +12,9 @@ then
   echo "age within range"
 fi
 
-
+if [ -e "testif.sh" ]
+then
+  echo "file exists"
+fi
 
 
