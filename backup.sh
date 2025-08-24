@@ -1,4 +1,4 @@
-SOURCE_DIR=/home/sample1/developers
+SOURCE_DIR=/home/ec2-user/sample1/developers
 
 BACKUP_DIR=myapp
 LOG_FILE="app.log"
